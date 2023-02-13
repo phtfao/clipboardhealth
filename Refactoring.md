@@ -9,3 +9,5 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+
+Once I understood what the code does when writing its unit tests, I tried to reduce the number of nested IFs to improve readability and understanding. So I turned a small piece of code that was repeating itself into a method. In addition to making it easier to read, it also makes it easier to maintain and create tests. As a result of the refactoring, we have simpler code that reads more linearly and fluidly, and is easier to understand and maintain.
